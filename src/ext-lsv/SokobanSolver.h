@@ -104,7 +104,10 @@ public:
 
     pair<int, int> get_mapSize() { return mapSize; }
     Lit &get_LitDictionary(int index) { return LitDictionary[index]; }
-    unordered_map<string, vector<pair<int, int>>> &get_mapInfo() { return mapInfo; }
+
+    unordered_map<int, Lit> get_LitDictionary() { return LitDictionary; }
+    unordered_map<string, vector<pair<int, int>>> &
+    get_mapInfo() { return mapInfo; }
 
 private:
     string mapName;
