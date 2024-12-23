@@ -327,8 +327,6 @@ void SokobanSolver::BoxPushMovementConstraints()
 
 void SokobanSolver::PlayerSinglePlacementConstraints()
 {
-    // cout << "Adding player single placement constraints..." << endl;
-
     vector<pair<int, int>> validPositions;
 
     // Collect all valid positions
