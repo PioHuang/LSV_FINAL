@@ -19,11 +19,13 @@ To compile the project, you will need a C++ compiler and the ABC framework.
    make
    ```
 
-## Usage
+### Usage
 ### Hashiwokakero Solver
-Implement the p.py file in the Hashiwokakero directory.
-Modify the island positions (x, y) and the numbers (required bridges) for each island.
-Ensure the program solves the puzzle and outputs the solution based on the given inputs.
+1. Navigate to the **Hashiwokakero** directory.  
+2. Modify the `p.py` file to define the following:
+   - Island positions `(x, y)`.
+   - The number of required bridges for each island.
+3. Run the program to generate the solution, ensuring all constraints are satisfied.
 
 ### Sokoban Solver
 The sokoban solver is integrated into the Berkeley ABC framework.
