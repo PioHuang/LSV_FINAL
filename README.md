@@ -22,6 +22,7 @@ To compile the project, you will need a C++ compiler and the ABC framework.
 ## Usage
 
 The sokoban solver is integrated into the Berkeley ABC framework.
+The sokoban solver codes are within src/ext-lsv
 First execute abc:
 
 ```sh
